@@ -8,12 +8,18 @@ Teste da API Baralho que pode ser localizada no seguinte endereço: https://gith
 INSTRUÇÕES DE USO
 
 Clone o projeto.
-Abra o projeto com sua IDE de programação em java, (NetBeans, Eclipse, entre outros), adicione o jar baralho.jar encontrado no endereço acima.
-Rode o código.
+
+Dentro do projeto se não houver uma pasta lib crie uma pasta lib e a acrescente a biblioteca baralho.jar
+
+Executar o comando "ant" pelo cmd ou terminal do sistema para a construção do executável no diretório que contem o arquivo
+build.xml 
+
+Aguardar o final da execução do comando
+
+Será criada uma pasta chamada build que deve conter o .jar do executável.
+
+Para executar o teste com a biblioteca, acesse a pasta build através do terminal e execute o comando java -jar executavel.jar.
 
 -----------------------------------------------------------------------------
 
-
-OBS:
-Não foi possível compilar o TesteBaralho com a biblioteca Baralho incluída no .jar.
 
